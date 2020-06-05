@@ -3,6 +3,7 @@ package com.example.mysamplevendorrequest.base
 import android.app.Application
 import android.content.Context
 import android.graphics.Typeface
+import com.example.mysamplevendorrequest.module.diModule
 import io.reactivex.plugins.RxJavaPlugins
 import org.koin.android.ext.android.startKoin
 
@@ -20,7 +21,7 @@ class App : Application() {
         super.onCreate()
 
 
-//        startKoin(this, diModule)
+        startKoin(this, diModule)
 
 
     }

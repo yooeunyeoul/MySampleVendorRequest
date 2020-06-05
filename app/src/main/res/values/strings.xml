@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MySampleVendorRequest</string>
+
+    <string name="vendor_id">"<b>" 벤더 아이디 "</b>" : %1$s</string>
+    <string name="vendor_name">"<b>벤더 네임</b> : %1$s"</string>
+    <string name="vendor_type">"<b>벤더 타입</b> : %1$s"</string>
+
+
+
 </resources>
